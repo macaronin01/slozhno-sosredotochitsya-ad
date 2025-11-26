@@ -1,4 +1,6 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --accent-color: #FF0070; /* цвет тени и фона заголовков*/
+  --title-color: #DB00FF;
+  --background-image: '../images/cover-image-dark.png';
+  --text-color: #F1B2CE;
+}
