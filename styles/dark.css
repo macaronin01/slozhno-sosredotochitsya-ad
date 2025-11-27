@@ -5,13 +5,13 @@
 */
 
 :root.theme-dark {
-  --accent-color: #FF0070; /* цвет тени и фона заголовков*/
-  --title-color: #DB00FF; /* цвет жирных надписей */
-  --text-color: #F1B2CE; /* #000028 для светлой*/
+  --accent-color: #FF0070; 
+  --title-color: #DB00FF; 
+  --text-color: #F1B2CE; 
   --page-color: #000028; 
   --button-color: var(--accent-color);
-  --decorated-color: var(--accent-color); /* цвет уголков */
-  --subtitle-h3-color: var(--page-color); /* цвет заголовка без фона */
+  --decorated-color: var(--accent-color); 
+  --subtitle-h3-color: var(--page-color); 
   --title-h3-color: var(--accent-color);
 
   --background-image: url(../images/cover-image-dark.png);
@@ -20,13 +20,13 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --accent-color: #FF0070; /* цвет тени и фона заголовков*/
-    --title-color: #DB00FF; /* цвет жирных надписей */
-    --text-color: #F1B2CE; /* #000028 для светлой*/
+    --accent-color: #FF0070; 
+    --title-color: #DB00FF; 
+    --text-color: #F1B2CE; 
     --page-color: #000028; 
     --button-color: var(--accent-color);
-    --decorated-color: var(--accent-color); /* цвет уголков */
-    --subtitle-h3-color: var(--page-color); /* цвет заголовка без фона */
+    --decorated-color: var(--accent-color);
+    --subtitle-h3-color: var(--page-color); 
     --title-h3-color: var(--accent-color);
 
     --background-image: url(../images/cover-image-dark.png);
