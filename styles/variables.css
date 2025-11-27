@@ -1,7 +1,12 @@
 :root {
   --accent-color: #FF0070; /* цвет тени и фона заголовков*/
-  --title-color: #DB00FF;
-  --background-image: '../images/cover-image-dark.png';
-  --text-color: #F1B2CE;
-  --page-color: rgba(0, 0, 40, 1);
+  --title-color: #DB00FF; /* цвет жирных надписей */
+  --text-color: #F1B2CE; /* #000028 для светлой*/
+  --page-color: #000028; 
+  --button-color: var(--accent-color);
+  --decorated-color: var(--accent-color); /* цвет уголков */
+  --subtitle-h3-color: var(--page-color); /* цвет заголовка без фона */
+  --title-h3-color: var(--accent-color); /* цвет заголовка без фона*/
+
+  --background-image: url(../images/cover-image-dark.png);
 }
