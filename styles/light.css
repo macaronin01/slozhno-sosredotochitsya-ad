@@ -14,7 +14,8 @@
   --subtitle-h3-color: var(--text-color); /* цвет заголовка без фона */
   --title-h3-color: var(--text-color);
 
-  --background-image: url(../images/cover-image-light.png)
+  --background-image: url(../images/cover-image-light.png);
+  --decoration-gap: clamp(10px , 2.65vw , 20px);
 }
 
 .theme-light .header__rec-text {
@@ -32,6 +33,11 @@
     --subtitle-h3-color: var(--text-color); /* цвет заголовка без фона */
     --title-h3-color: var(--text-color);
 
-    --background-image: url(../images/cover-image-light.png)
+    --background-image: url(../images/cover-image-light.png);
+    --decoration-gap: clamp(10px , 2.65vw , 20px);
+  }
+
+  .header__rec-text {
+    display: none;
   }
 }

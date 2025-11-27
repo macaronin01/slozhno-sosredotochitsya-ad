@@ -9,4 +9,5 @@
   --title-h3-color: var(--accent-color); /* цвет заголовка без фона*/
 
   --background-image: url(../images/cover-image-dark.png);
+  --decoration-gap: clamp(10px , 2.65vw , 20px);
 }

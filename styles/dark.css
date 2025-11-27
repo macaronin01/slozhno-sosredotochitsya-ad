@@ -13,6 +13,9 @@
   --decorated-color: var(--accent-color); /* цвет уголков */
   --subtitle-h3-color: var(--page-color); /* цвет заголовка без фона */
   --title-h3-color: var(--accent-color);
+
+  --background-image: url(../images/cover-image-dark.png);
+  --decoration-gap: clamp(10px , 2.65vw , 20px);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -25,5 +28,8 @@
     --decorated-color: var(--accent-color); /* цвет уголков */
     --subtitle-h3-color: var(--page-color); /* цвет заголовка без фона */
     --title-h3-color: var(--accent-color);
+
+    --background-image: url(../images/cover-image-dark.png);
+    --decoration-gap: clamp(10px , 2.65vw , 20px);
   }
 }
