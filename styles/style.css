@@ -18,7 +18,7 @@
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   grid-template-columns: 1fr;
-  position: relative; 
+  position: relative;
   align-items: center;
 
   padding: clamp(10px , 2.65vw , 20px);
@@ -150,7 +150,7 @@
 
 .main {
   margin-block: 40px;
-  padding-inline: clamp(10px , 2.65vw , 20px);;
+  padding-inline: clamp(10px , 2.65vw , 20px);
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 50px;
