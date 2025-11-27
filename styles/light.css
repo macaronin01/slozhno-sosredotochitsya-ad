@@ -5,13 +5,13 @@
 */
 
 :root.theme-light {
-  --accent-color: #FF8DCB; 
-  --title-color: #FFC2E6; 
-  --text-color: #353430; 
-  --page-color: #FFF1F7; 
+  --accent-color: #FF8DCB;
+  --title-color: #FFC2E6;
+  --text-color: #353430;
+  --page-color: #FFF1F7;
   --button-color: var(--text-color);
-  --decorated-color: var(--text-color); 
-  --subtitle-h3-color: var(--text-color); 
+  --decorated-color: var(--text-color);
+  --subtitle-h3-color: var(--text-color);
   --title-h3-color: var(--text-color);
 
   --background-image: url(../images/cover-image-light.png);
@@ -24,13 +24,13 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --accent-color: #FF8DCB; 
-    --title-color: #FFC2E6; 
-    --text-color: #353430; 
-    --page-color: #FFF1F7; 
+    --accent-color: #FF8DCB;
+    --title-color: #FFC2E6;
+    --text-color: #353430;
+    --page-color: #FFF1F7;
     --button-color: var(--text-color);
-    --decorated-color: var(--text-color); 
-    --subtitle-h3-color: var(--text-color); 
+    --decorated-color: var(--text-color);
+    --subtitle-h3-color: var(--text-color);
     --title-h3-color: var(--text-color);
 
     --background-image: url(../images/cover-image-light.png);

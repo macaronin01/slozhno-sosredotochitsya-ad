@@ -130,7 +130,6 @@
   height: 25px;
 }
 
-/* Левый нижний угол */
 .decorated-zone::before {
   align-self: flex-start;
   justify-self: end;
@@ -140,7 +139,6 @@
   border-bottom: 1px solid var(--decorated-color);
 }
 
-/* Правый верхний угол */
 .decorated-zone::after {
   top: clamp(10px , 2.65vw , 20px);
   right: clamp(10px , 2.65vw , 20px);
