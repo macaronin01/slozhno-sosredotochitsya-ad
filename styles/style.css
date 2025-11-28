@@ -20,13 +20,12 @@
   grid-template-columns: 1fr;
   position: relative;
   align-items: center;
-
-  padding: clamp(10px , 2.65vw , 20px);
+  padding: var(--decoration-gap);
 }
 
 .title-decor {
   background-color: var(--accent-color);
-  color: black;
+  color: var(--subtitle-h3-color);
   font-weight: bold;
 }
 
@@ -35,15 +34,14 @@
 }
 
 
-
 .header__rec-text {
   display: flex;
   justify-self: end;
   color: var(--accent-color);
   line-height: 25px;
   position: absolute;
-  top: calc(clamp(10px , 2.65vw , 20px) - 10px);
-  right: calc(clamp(10px , 2.65vw , 20px) + 10px);
+  top: calc(var(--decoration-gap) - 10px);
+  right: calc(var(--decoration-gap) + 10px);
 }
 
 .header__rec-text::before {
@@ -72,7 +70,7 @@
 .header__theme-menu {
   justify-self: end;
   align-self: start;
-  margin-top: clamp(65px, calc(-173.3px + 35.67vh), 182px);;
+  margin-top: clamp(65px, calc(-173.3px + 35.67vh), 182px);
 }
 
 .header__theme-menu-button {
@@ -87,7 +85,7 @@
 
 .header__theme-menu-button_active {
   border: 1px solid var(--button-color);
-  cursor: default;
+  pointer-events: none;
 }
 
 .header__theme-menu-button:hover:not(.header__theme-menu-button_active) {
@@ -115,7 +113,6 @@
 .header__cover {
   color: var(--subtitle-h3-color);
   font-weight: bold;
-  
 }
 
 .decorated-zone {
@@ -133,15 +130,15 @@
 .decorated-zone::before {
   align-self: flex-start;
   justify-self: end;
-  bottom: clamp(10px , 2.65vw , 20px);
-  left: clamp(10px , 2.65vw , 20px);
+  bottom: var(--decoration-gap);
+  left: var(--decoration-gap);
   border-left: 1px solid var(--decorated-color);
   border-bottom: 1px solid var(--decorated-color);
 }
 
 .decorated-zone::after {
-  top: clamp(10px , 2.65vw , 20px);
-  right: clamp(10px , 2.65vw , 20px);
+  top: var(--decoration-gap);
+  right: var(--decoration-gap);
   border-right: 1px solid var(--decorated-color);
   border-top: 1px solid var(--decorated-color);
 }
@@ -179,6 +176,19 @@
 
 .main__section-link {
   text-shadow: 2px 1px 0 var(--accent-color);
+  text-decoration: none;
+}
+
+.main__section-link:hover {
+  border-bottom: 1px solid var(--text-color);
+}
+
+.main__section-link:focus {
+  outline: none;
+}
+
+.main__section-link:focus-visible {
+  outline: 1px solid var(--text-color);
 }
 
 .main__image-list {
@@ -190,12 +200,6 @@
 }
 
 .main__section-image {
-  /*width: 100%;
-  height: auto;
-  object-fit: contain;
-  margin: 0;
-  padding: 0;
-  display: block;*/
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -323,10 +327,3 @@
     font-size: 157px;
   }
 }
-
-/* для большого экрана
-.main__section-answers-what {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  } */

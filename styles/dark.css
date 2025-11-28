@@ -18,7 +18,7 @@
   --decoration-gap: clamp(10px , 2.65vw , 20px);
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   :root {
     --accent-color: #FF0070;
     --title-color: #DB00FF;
@@ -32,4 +32,4 @@
     --background-image: url(../images/cover-image-dark.png);
     --decoration-gap: clamp(10px , 2.65vw , 20px);
   }
-}
+}*/
